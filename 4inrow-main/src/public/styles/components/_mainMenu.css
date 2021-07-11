@@ -1,0 +1,25 @@
+.main-menu__menu-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    background-color: black;
+}
+    .main-menu__option {
+        color: text-primary-light;
+        cursor: pointer;
+        font-size:1.5em;
+        font-weight: bold;
+        padding: 0.5em 1em;
+        text-align: center;
+        transition: letter-spacing ease .2s;
+        width: 100%;
+    }
+        :hover {
+          letter-spacing: 1px;
+        }
+    
+    .main-menu__option-primary {
+      font-size: 3em;
+    }

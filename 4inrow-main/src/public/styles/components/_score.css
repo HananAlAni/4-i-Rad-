@@ -1,0 +1,49 @@
+.score__score-container {
+    align-items: center;
+    border: 2px solid text-primary-light;
+    display: flex;
+    justify-content: center;
+    padding: 1em 0.5em;
+    width: 100%;
+}
+    h3 {
+        font-weight: normal;
+        width: 40%;
+    }
+        :last-of-type {
+            text-align: right;
+        }
+    
+    .score__player-color {
+        background-color: text-primary-light;
+        border-radius: 50%;
+        height: 20px;
+        width: 20px;
+    }
+    #red-player {
+        background: red-player;
+        border: 2px solid red-border;
+    }
+    #blue-player {
+        background: blue-player;
+        border: 2px solid blue-border;
+    }
+    .score__score {
+        display: flex;
+        font-size: 1.2em;
+        justify-content: center;
+        text-align: center;
+        width: 10%;
+    }
+
+
+@media only screen and (min-width: 1080px) {
+    .game__game-container .score__score-container {
+        align-self: start;
+        grid-column: 1;
+    }
+
+    .gameEnded__ended-container .score__score-container {
+        grid-column: 1/4;
+    }
+}

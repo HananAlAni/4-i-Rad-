@@ -1,0 +1,5 @@
+@import 'createPlayer';
+@import 'game';
+@import 'gameEnded';
+@import 'mainMenu';
+@import 'score';

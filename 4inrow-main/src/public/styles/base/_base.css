@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Rasa';
+    color: text-secondary-ligh;
+    margin: 0;
+}
+
+.shadow {
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+}
+
+.base__container {
+    display: grid;
+    grid-template-rows: 20% auto;
+    height: 100vh;
+    margin: 0 auto;
+    max-width: 1080px;
+    position: relative;
+    width: 90vw;
+}
+
+.base__header {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.base__footer {
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    height: 10vh;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.btn {
+    background: none;
+    color: text-primary-light;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    outline: none;
+    padding: 0.5em;
+}
+
+.btn-primary {
+    border: 2px solid text-primary-light;
+    transition: all linear .2s;
+}
+    :hover {
+        background-color: text-primary-light;
+        color: background-light;
+    }
+
+
+.btn-phone {
+    border: unset;
+    padding: unset;
+}

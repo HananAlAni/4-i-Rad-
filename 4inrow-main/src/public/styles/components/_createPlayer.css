@@ -1,0 +1,66 @@
+.createPlayer__container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+
+.createPlayer__input-container {
+    margin-bottom: 2em;
+    width: 100%;
+}
+    label {
+        display: block;
+        font-size: 1.5em;
+    }
+    input {
+        border: 2px solid text-primary-light;
+        color: text-primary-light;
+        font-size: 1em;
+        outline: none;
+        padding: 0.5em;
+        width: 100%;
+    }
+    small {
+        color: red;
+        display: none;
+        font-size: 1em;
+        margin-top: 0.5em;
+    }
+    .error {
+        display: block;
+    }
+
+
+@media only screen and (min-width: 1080px) {
+    .createPlayer__container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 10em 10em 8em 1fr;
+    }
+        .createPlayer__input-container {
+          align-items: center;
+          display: flex;
+          flex-direction: column;
+          margin: unset;
+        }
+          label {
+            font-weight: bold;
+            margin-bottom: 0.5em;
+            width: 80%;
+          }
+
+          input {
+            font-size: 1.3em;
+            width: 80%;
+          }
+        }
+
+        .btn {
+            align-self: end;
+            grid-row: 3;
+            justify-self: center;
+            width: 30%;
+        }
+    

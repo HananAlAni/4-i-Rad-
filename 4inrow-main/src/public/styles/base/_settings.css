@@ -1,0 +1,13 @@
+
+
+
+background-light:: white;
+background-dark: white;
+blue-border: #1254B7;
+blue-player: #183766;
+red-border: #AC1A1A;
+red-player: #661818;
+text-primary-light: #3F3F3F;
+text-secondary-light: #636363;
+
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&family=Rasa:wght@400;700&display=swap');
